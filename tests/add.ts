@@ -1,5 +1,3 @@
-
-
-export function add (a,b) {
-	return a + b
+export function add(a: number, b: number) {
+  return a + b;
 }

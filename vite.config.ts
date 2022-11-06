@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+/// <reference types="vitest" />
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import { vitestConfig } from "./vitestConfig";
+import vueJsx from "@vitejs/plugin-vue-jsx";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()]
-})
+  test: {
+    ...vitestConfig,
+  },
+  plugins: [vue(), vueJsx()],
+});

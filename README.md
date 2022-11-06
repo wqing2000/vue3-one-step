@@ -19,5 +19,3 @@ vue3 开发技术栈 一步到位 开箱即用
 - [ ] axios
 - [ ] lint + eslint + prettier
 
-vite
-
