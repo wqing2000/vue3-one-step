@@ -11,7 +11,7 @@
     "test-e2e": "cypress open"
   },
   "gitHooks": {
-    "commitmsg": "echo '1233'"
+    "commitmsg": "node scripts/verifyCommit.js"
   },
   "dependencies": {
     "vue": "^3.2.37"
