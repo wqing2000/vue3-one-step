@@ -1,6 +1,6 @@
 import { test } from "vitest";
 import HelloWorld from "../src/components/HelloWorld.vue";
-import Hello from "../src/components/Hello";
+import Hello from "@/components/Hello";
 import { mount } from "@vue/test-utils";
 
 test("hello", () => {
