@@ -17,7 +17,7 @@ vue3 开发技术栈 一步到位 开箱即用
 - [ ] cypress-component-tes
 - [x] alias
 - [x] lint + eslint + prettier
-- [ ] git commit message 校验
+- [x] git commit message 校验
 - [ ] ci && cd
 - [ ] story-book
 - [ ] axios
