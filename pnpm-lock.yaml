@@ -4,23 +4,23 @@ specifiers:
   '@vitejs/plugin-vue': ^3.1.0
   '@vitejs/plugin-vue-jsx': ^2.1.0
   '@vue/test-utils': ^2.2.1
+  chalk: ^5.1.2
   jsdom: ^20.0.2
   typescript: ^4.6.4
   vite: ^3.1.0
   vitest: ^0.24.5
   vue: ^3.2.37
   vue-tsc: ^0.40.4
-  vue3-one-step: 'link:'
   yorkie: ^2.0.0
 
 dependencies:
   vue: 3.2.39
-  vue3-one-step: 'link:'
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.2+vue@3.2.39
   '@vitejs/plugin-vue-jsx': 2.1.0_vite@3.1.2+vue@3.2.39
   '@vue/test-utils': 2.2.1_vue@3.2.39
+  chalk: 5.1.2
   jsdom: 20.0.2
   typescript: 4.8.3
   vite: 3.1.2
@@ -654,6 +654,11 @@ packages:
       ansi-styles: 3.2.1
       escape-string-regexp: 1.0.5
       supports-color: 5.5.0
+    dev: true
+
+  /chalk/5.1.2:
+    resolution: {integrity: sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /check-error/1.0.2:
