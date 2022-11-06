@@ -10,10 +10,12 @@ specifiers:
   vitest: ^0.24.5
   vue: ^3.2.37
   vue-tsc: ^0.40.4
+  vue3-one-step: 'link:'
   yorkie: ^2.0.0
 
 dependencies:
   vue: 3.2.39
+  vue3-one-step: 'link:'
 
 devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.2+vue@3.2.39
