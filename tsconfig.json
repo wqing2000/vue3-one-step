@@ -23,7 +23,8 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/*.ts"
+    "tests/*.ts",
+    "cypress/**/*.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

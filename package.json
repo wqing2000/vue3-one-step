@@ -7,8 +7,13 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "test": "pnpm test-unit-run && pnpm test-component-run && pnpm test-e2e-run",
     "test-unit": "vitest",
-    "test-e2e": "cypress open",
+    "test-component": "cypress open --component",
+    "test-e2e": "cross-env NODE_ENV=developer cypress open --e2e",
+    "test-unit-run": "vitest --run",
+    "test-component-run": "cypress run --component",
+    "test-e2e-run": "cross-env NODE_ENV=developer cypress run --e2e",
     "lint": "eslint --ext .ts,.vue,.tsx src/ --no-error-on-unmatched-pattern"
   },
   "gitHooks": {
@@ -34,6 +39,8 @@
     "@vue/eslint-config-typescript": "^11.0.2",
     "@vue/test-utils": "^2.2.1",
     "chalk": "^5.1.2",
+    "cross-env": "^7.0.3",
+    "cypress": "^10.11.0",
     "eslint": "^8.27.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.7.0",
